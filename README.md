@@ -11,7 +11,7 @@ More precisely, this competition involves the following tasks:
  
 Overall, it is challenging to study an efficient algorithm for both multi-frame fusion and restoration.
 The ultimate goal of this work is to develop an on-device model that can be deployed on mobile devices, so there are time and memory constraints.
-For more details, see https://codalab.lisn.upsaclay.fr/competitions/21316#learn_the_details-overview.
+For more details, see [https://codalab.lisn.upsaclay.fr/competitions/21316#learn_the_details-overview](https://www.codabench.org/competitions/12922/).
 
 
 
@@ -90,6 +90,7 @@ In addition, it is not necessary to use all the input frames - to save memory an
 
 ## Contacts
 For any questions regarding this competition, please ask through forum of our competition site or contact to the organizers via email. 
+
 
 
 
