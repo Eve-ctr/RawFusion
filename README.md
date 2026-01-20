@@ -3,7 +3,7 @@
     <img src="./figure.png" width="883px" height="618px" title="Figure"/>
 
 ## Overview
-This is a competition held in CVPR 2025 New Trends in Image Restoration and Enhancement (NTIRE) workshop. The goal of
+This is a competition held in CVPR 2026 New Trends in Image Restoration and Enhancement (NTIRE) workshop. The goal of
 this competition is to develop an efficient algorithm for burst HDR and restoration. 
 
 More precisely, this competition involves the following tasks:
@@ -116,6 +116,7 @@ In addition, it is not necessary to use all the input frames - to save memory an
 
 ## Contacts
 For any questions regarding this competition, please ask through forum of our competition site or contact to the organizers via email. 
+
 
 
 
