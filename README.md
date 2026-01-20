@@ -82,30 +82,6 @@ Submission for each participant (team) is limited up to 30 times per day.
 ## Submissions - Test Phase
 From 14th March, the test phase begins and the test input images are opened to participants. In the same way as validation phase, 
 participants can submit their output images on the server. Submission during the test phase is limited up to 3 times.
-
-
-
-% ### How to test your model ? (and how to measure the model's parameters and FLOPs)
-% 1. Register your team in the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/11U3h07nikI69hwjAORpajRZEMAw7sfWMjveoLgcinc0/edit?usp=sharing) and get your `[Team_ID]`.
-% 2. git clone https://github.com/Eve-ctr/RawFusion.git
-% 3. Download the test input images from the [Google Drive](https://drive.google.com/file/d/1RspScAjXluIFeS5gymqYSeWXWdPoHYG2/view?usp=sharing) to the folder `./testset`
-% 4. Put the code of your model in `./models/Model_[Your_Team_ID]_[Your_Model_Name].py` 
-%   * Please add only one file in the folder `./models`. Please do not add other submodules.
-%   * Please zero pad `[Your_Team_ID]` into two digits: e.g. 00, 01, 02
-% 5. Put the pretrained model in `./model_zoo/[Your_Team_ID]_[Your_Model_Name].[pth or pt]`
-%   * Please zero pad `[Your_Team_ID]` into two digits: e.g. 00, 01, 02
-%   * Modify `My_model` in test demo.py to import your model in `./test_demo.py` as follows:
-%    ```python
-%    """import your models here!"""
-%    from models.Model_00_unet import UNet as My_model
-%     ```
-% 6. `python test_demo.py` to generate result images and measure the number of parameters and FLOPs of your model.
-%   > **WARNING**  
-%   > To ensure a fair comparison between participants, please do not modify other codes as much as possible.  
-%   > Only allow minimal modifications to make your model code work.
-% 7. After confirming that your model is working properly, please send us the command to download your code, e.g.,  
-%   * `git clone [Your repository link]`, or Google Drive link, or mail, etc.
-%   * Organizers will check the model parameters and FLOPs limits and verify that the submitted images are indeed reproducible.
  
 ## Other competition rules
 All training datasets and their images must not be shared with others or used for other purposes.
